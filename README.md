@@ -6,7 +6,7 @@ An ASP.NET unzip handler for serving files directly within ZIP archives without 
 ```
 http://yoursite.com/extjs.zip/resources/all.css
 ```
-The above will doesn't work out of the box in IIS. A simple fix is to upload this unzip.aspx script and try again with:
+The above will doesn't work out of the box in IIS. A simple fix is to upload unzip.aspx and open:
 ```
 http://yoursite.com/unzip.aspx/extjs.zip/resources/all.css
 ```
